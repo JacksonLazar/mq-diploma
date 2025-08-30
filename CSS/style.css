@@ -1,0 +1,610 @@
+body {
+  margin: 0;
+
+@font-face {
+  font-family: Open Sans;
+  src: url(/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/FONT/OpenSans-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: Open Sans;
+  src: url(/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/FONT/OpenSans-Bold.ttf);
+  font-weight: bold;
+}
+.header {
+  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000000;
+  position: relative;
+  z-index: 1;
+/*   padding-bottom: 35px; */
+  padding-top: 23px;
+  padding-bottom: 77px;
+}
+
+.header:after {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.45;
+  z-index: -1;
+}
+
+.menu {
+  display:flex;
+  align-items: center;
+  width:1175px;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.menu_img {
+  width: 179px;
+}
+
+.menu-title {
+  display:flex;
+  list-style-type: none; 
+}  
+
+.title a {
+  list-style-type: none;
+  opacity: 0.922;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.title {
+  list-style-type: none;
+  margin-left: 35px;
+}
+
+.welcome-title {
+ text-transform: uppercase;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 100px;
+ width: 730px;
+ color: #ffffff;
+ font-size: 45px;
+ line-height: 1.7;
+ font-family: "Open Sans", sans-serif;
+ font-weight: bold;
+}
+
+/* основной контент */
+
+.title-trands {
+  display:block;
+  text-decoration: none;
+  font-size: 20px;
+
+  text-transform: uppercase;
+  color: #0f0d0e;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 65px;
+  margin-bottom: 44px;
+  text-align: center;
+} 
+ h2 {
+    margin: 0px;
+ }
+
+.main {
+  display: flex;
+  width: 1170px;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 62px;
+  justify-content: space-between;
+}
+
+.trands {
+    display: grid;
+    grid-template-columns: repeat(4, auto-fit);
+    grid-auto-flow: column;
+
+    gap: 5px;
+   
+}
+
+.trends-news {
+     position: relative;
+     align-content: end; 
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-top: 132px;
+     z-index: 0;
+}
+
+.container-news {
+    
+    box-sizing: border-box;
+    padding: 34px;
+    border: 3px solid #7d7347;
+    
+
+}
+
+.trends-news::after {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.45;
+  z-index: -1;
+}
+
+.block-1 {
+    background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.block-2 {
+  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  margin-left: 5px;
+}
+.block-3 {
+  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.block-4 {
+  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+
+.trends-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 7px;
+
+}
+
+.content {
+  display:flex;
+  width: 800px;
+  align-items: flex-start;
+}
+
+.content:nth-child(n+2) {
+  margin-top: 61px;
+}
+.author {
+ display:block;
+ font-family: "Open Sans", sans-serif;
+ font-weight: bold;
+ font-size: 12px;
+}
+
+.img {
+  width: 380px;
+}
+
+article {
+  margin-left: 30px;
+}
+
+.link {
+ margin-top: 0px;
+ padding: 0px;
+}
+.number-link {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px; 
+  
+}
+.header-link {
+  text-decoration: none;
+  color: #b59f5b;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.news-title {
+  display:block;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  
+}
+
+.description {
+ font-size: 15px;
+ line-height: 22px;
+ color: #0f0d0e;
+ font-weight: normal;
+ font-family: "Open Sans";
+}
+
+.date {
+  display:flex;
+  margin-bottom: 47px; 
+}
+.time {
+  display:block;
+  font-size: 12px;
+  color: #888888;
+  font-weight: bold;
+  font-family: "Open Sans",sans-serif;
+  margin-right: 12px;
+  line-height: normal;
+}
+
+.img-posts {
+  width: 70px;
+}
+
+.posts {
+  width: 270px;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14;
+  font-weight: bold;
+  margin-left: 100px;
+  
+}
+
+.new-posts {
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.posts-title {
+  display:block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  width:100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.new-posts-discribe {
+  margin-left: 10px;
+}
+
+.search {
+  display: flex;
+  margin: 67px 0px 62px;
+  justify-content: flex-start;
+}
+
+.input-search {
+  display:block;
+  box-sizing:border-box;
+  margin: 0px;
+  padding: 0px;
+  height: 43px;
+  background-color: #f3f7f5;
+  border: 0px;
+  width: 100%;
+}
+
+.search-batton {
+ display: block;
+ width: 43px; 
+ height: 43px;
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+ background-color: #b59f5b;
+ background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg");
+ background-repeat: no-repeat;
+ background-size: 20px auto;
+ background-position: center center;
+ border: 0px;
+}
+
+.input {  
+  width: 100%;
+  margin-bottom: 14px;
+  height: 48px;
+  background-color: #f3f7f5;
+  border: 0px;
+}
+
+.batton {
+  background-color: #b59f5b;
+  display: block;
+  box-sizing:border-box;
+  width: 100%;
+  height: 48px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  border: 0px;
+}
+
+.box-for-tags {
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ justify-content: flex-start;
+ padding: 0px;
+}
+
+.tags {
+ margin-top: 56px; 
+}
+
+.tags-title{
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  border: 3px solid #ededed;
+  padding: 5px 10px; 
+}
+
+.tags-title:nth-child(n+1) {
+ margin-bottom: 6px; 
+ margin-left: 4px;
+}
+
+.form-title {
+  display:block;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position:relative;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.form-title:after {
+  content: "";
+  height: 4px;
+  background-color: #b59f5b;
+  opacity: 0.45;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 80px;
+}
+
+.new-posts-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.teams {
+  margin-top:45px;
+  margin-bottom:40px;
+}
+
+.box-for-teams {
+ list-style-type: none;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px; 
+}
+
+.teams-title {
+  font-size: 15px;
+  color: #0f0d0e;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+.teams-list{
+margin-bottom: 25px;
+border-bottom: 1px solid #ededed;
+padding-bottom: 10px;
+}
+
+.number-for-teams {
+ list-style-type: none;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ align-items: flex-start;
+ padding: 0px; 
+}
+
+.number-title {
+  font-size: 15px;
+  color: #c4b27c;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  position:relative;
+  left: 1px;
+  top: -5px;
+} 
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, auto-fit);
+  grid-auto-flow: column;
+  
+  gap: 115;
+  max-width: 1120px; 
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.products-box {
+  max-width: 300px;
+  box-sizing: border-box;
+ 
+}
+
+.description-products {
+  margin: 0px;
+  font-family:"Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.products-box-information {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  outline: 3px solid #d3c59d;
+  outline-offset: 25px;
+
+}
+
+.shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  
+}
+
+.prise {
+  display: block;
+  text-decoration: line-through;
+  justify-items: center;
+  font-family:"Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.sale-prise {
+  display: block;
+  text-align: center;
+  font-family:"Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.my-shop {
+  background-color: #b59f5b;
+  padding: 20px 30px;
+  font-family:"Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  
+}
+
+/*                   подвал                   */
+
+
+.footer {
+  display: flex;
+  background-color: #f4f7f6;
+  width: 1170px;
+  padding: 15px 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 63px;
+  justify-content: center;
+}
+
+.number-img-footer {
+  display: inline;
+  list-style-type: none;
+  margin-left: 26px;
+}
+.img-footer {
+  width: 20px;
+}
+
+.box-for-img-footer {
+  display: flex;
+  align-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.copyrite {
+ display: block;
+ font-family: "Open Sans", sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ color: #999999;
+ margin-top: 71px;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ text-decoration: none;
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header {
+  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/banner-bg-tablet.jpg");
+  }
+  .menu-title {
+    display: none;
+  }
+  .trands {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    /* grid-auto-flow: column; */
+
+    gap: 5px;
+}
+}
