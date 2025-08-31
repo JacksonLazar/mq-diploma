@@ -3,16 +3,16 @@ body {
 }
 @font-face {
   font-family: Open Sans;
-  src: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/FONT/OpenSans-Regular.ttf");
+  src: url("FONT/OpenSans-Regular.ttf");
   font-weight: normal;
 }
 @font-face {
   font-family: Open Sans;
-  src: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/FONT/OpenSans-Bold.ttf");
+  src: url("FONT/OpenSans-Bold.ttf");
   font-weight: bold;
 }
 .header {
-  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/banner-bg.jpg");
+  background-image: url("IMAGES/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -180,26 +180,26 @@ width: 180px;
 }
 
 .block-1 {
-    background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend1.jpg");
+    background-image: url("/IMAGES/trend1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .block-2 {
-  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend2.jpg");
+  background-image: url("IMAGES/trend2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
  
   margin-left: 5px;
 }
 .block-3 {
-  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend3.jpg");
+  background-image: url("IMAGES/trend3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 5px;
 }
 .block-4 {
-  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/trend4.jpg");
+  background-image: url("/IMAGES/trend4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-left: 5px;
@@ -691,7 +691,7 @@ height: 500px;
 
 @media (min-width: 640px) and (max-width: 1199px) {
   .header {
-  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/banner-bg-tablet.jpg");
+  background-image: url("IMAGES/banner-bg-tablet.jpg");
   z-index: 1;
   }
 
@@ -745,7 +745,7 @@ height: 500px;
 }
  @media (max-width: 639px) {
   .header {
-  background-image: url("/Users/evgenijlazar/Documents/Обучение програмированию/mq-diploma/IMAGES/banner-mobile.jpg");
+  background-image: url("IMAGES/banner-mobile.jpg");
   border: 1px solid transparent;
   position: relative;
   text-align: center;
